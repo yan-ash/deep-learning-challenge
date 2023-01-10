@@ -30,7 +30,8 @@ I've created a tool for the nonprofit foundation Alphabet Soup that can help it 
 
 1. Compile and train the model.
 1. Evaluate the model using the test data to determine the loss and accuracy.
-![image](https://user-images.githubusercontent.com/109451707/211553596-06345dd3-daa4-4fe9-8174-a5b610a7f781.png)
+![image](https://user-images.githubusercontent.com/109451707/211553833-ca68f466-09ce-497c-b104-b4e4c2934baa.png)
+
 
 1. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5
 
