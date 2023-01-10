@@ -23,12 +23,14 @@ I've created a tool for the nonprofit foundation Alphabet Soup that can help it 
 ### Step 2 : Compile, Train and Evaluate the Module
 
 1. Create a neural network model by assigning the number of input features and nodes for each layer using TensorFlow and Keras.
+![image](https://user-images.githubusercontent.com/109451707/211553499-25fb47b6-0cca-4f88-bb2b-e40cf8bc147d.png)
 
 1. hidden layers with 80, 30 neurons split (the input (node) feature was 43, 80 was chosen as the first layer as it is almost double the input_feature). With an hidden layer activation function of relu as this our go to for first model.
    Output node is 1 as it was binary classifier model with only one output: was the funding application succesfull yes or no. And an output layer activation of sigmoid as the model output is binary classification between 0 and 1.
 
 1. Compile and train the model.
 1. Evaluate the model using the test data to determine the loss and accuracy.
+![image](https://user-images.githubusercontent.com/109451707/211553596-06345dd3-daa4-4fe9-8174-a5b610a7f781.png)
 
 1. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5
 
